@@ -33,17 +33,34 @@ label start:
 
     play sound fast_knock fadein 0.5
 
-    pause 4.0
+    pause 8.0
 
-    me "{i}Pero la puta que los pario, quien carajos... {/i}"
+    me "{i}Pero la puta que los pario, quien mierda...{w=1.5}{nw}{/i}"
 
-    "El sonido de los golpes se vuelve mas insistente, y te preguntas si deberias levantarte a abrir la puerta."
+    me "{i}Hoy es mi cumpleaños.{/i}"
+
+    me "{i}Mierda.{/i}"
+
+    me "¡No abrire la puerta! Asi que mejor vete a la mierda y dejame dormir en paz! Lo unico que quiero es tranquilidad."
+
+    "El sonido de los golpes se detiene por un momento, pero luego vuelve a sonar, esta vez con mas fuerza y violencia."
+
+    play sound hard_knock fadein 0.5
+
+    '{color=#0051ff}???{/color}' "Policia de CABA ¡Abra la puerta! Necesitamos hablar contigo."
+
+    me "¿¡La policia!?"
+
+    play music police fadein 0.5 loop
+
+    "Abres los ojos de golpe y te sientas en la cama, con el corazon latiendo a mil por hora."
 
     scene bg bedroom:
         size(1920,1080)
 
-    show cam at center:
-        zoom 0.98
+    me "{i}¿Que mierda quieren de mi? ¿Que hice? ¿Me van a meter presa? ¿Me van a llevar a la comisaria? ¿Me van a torturar? ¡¿Que mierda?!{/i}"
+
+    me "{i}BASTA de ser tan dramatica. Solo querran hacerte unas preguntas y listo. Que tanto.{/i}"
 
     c "He visto escenas del crimen más limpias que esta habitación."
 
